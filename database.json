@@ -2,25 +2,78 @@
     "animals": [
         {
             "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
+            "name": "Brixton",
+            "breed": "PitBull",
+            "customerId": 4,
             "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Spud",
+            "breed": "Chihuahua",
+            "customerId": 2,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Gypsy",
+            "breed": "Blue Heeler",
+            "customerId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 4,
+            "name": "Shelby",
+            "breed": "Unknown",
+            "customerId": 5,
+            "locationId":2 
+        },
+        {
+            "id": 5,
+            "name": "Ruby",
+            "breed": "Black Lab",
+            "customerId":1 ,
+            "locationId":2 
         }
     ],
     "customers": [
         {
             "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
+            "name": "Joey Knight",
+            "address": "4098 Rocky Drive"
+        },
+        {
+            "id": 2,
+            "name": "Samantha Denton",
+            "address": "100 Pebble Way"
+        },
+        {
+            "id": 3,
+            "name": "Sam Barker",
+            "address": "900 Boulder Cirlce"
+        },
+        {
+            "id": 4,
+            "name": "Danny Barker",
+            "address": "8000 Legion Way"
+        },
+        {
+            "id": 5,
+            "name": "Faith Barker",
+            "address": "4867 South Hampton Blvd"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Chris Barker"
+        }
+    ],
     "locations": [
         {
             "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
+            "name": "Nashville Kennels North",
+            "address": "200 Main Street"
         },
         {
             "id": 2,
