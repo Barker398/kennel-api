@@ -66,7 +66,23 @@
     "employees": [
         {
             "id": 1,
-            "name": "Chris Barker"
+            "name": "Chris Barker",
+            "locationId": 2
+        },
+        {
+            "id": 2,
+            "name": "Rolo Barker",
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "name": "Melody Barker",
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "name": "Kate Barker",
+            "locationId": 1
         }
     ],
     "locations": [
