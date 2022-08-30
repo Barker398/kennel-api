@@ -1,100 +1,195 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Brixton",
-            "breed": "PitBull",
-            "customerId": 4,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Spud",
-            "breed": "Chihuahua",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Gypsy",
-            "breed": "Blue Heeler",
-            "customerId": 3,
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "name": "Shelby",
-            "breed": "Unknown",
-            "customerId": 5,
-            "locationId":2 
-        },
-        {
-            "id": 5,
-            "name": "Ruby",
-            "breed": "Black Lab",
-            "customerId":1 ,
-            "locationId":2 
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Joey Knight",
-            "address": "4098 Rocky Drive"
-        },
-        {
-            "id": 2,
-            "name": "Samantha Denton",
-            "address": "100 Pebble Way"
-        },
-        {
-            "id": 3,
-            "name": "Sam Barker",
-            "address": "900 Boulder Cirlce"
-        },
-        {
-            "id": 4,
-            "name": "Danny Barker",
-            "address": "8000 Legion Way"
-        },
-        {
-            "id": 5,
-            "name": "Faith Barker",
-            "address": "4867 South Hampton Blvd"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Chris Barker",
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Rolo Barker",
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Melody Barker",
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Kate Barker",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville Kennels North",
-            "address": "200 Main Street"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Brixton",
+      "breed": "PitBull",
+      "customerId": 4,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Spud",
+      "breed": "Chihuahua",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Gypsy",
+      "breed": "Blue Heeler",
+      "customerId": 3,
+      "locationId": 1
+    },
+    {
+      "name": "Sheldon",
+      "breed": "Turtle",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 6
+    },
+    {
+      "name": "Scooter",
+      "breed": "Horse",
+      "locationId": 3,
+      "customerId": 2,
+      "id": 7
+    },
+    {
+      "name": "Harley",
+      "breed": "Horse",
+      "locationId": 5,
+      "customerId": 3,
+      "id": 8
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Joey Knight",
+      "address": "4098 Rocky Drive"
+    },
+    {
+      "id": 2,
+      "name": "Samantha Denton",
+      "address": "100 Pebble Way"
+    },
+    {
+      "id": 3,
+      "name": "Sam Barker",
+      "address": "900 Boulder Cirlce"
+    },
+    {
+      "id": 4,
+      "name": "Danny Barker",
+      "address": "8000 Legion Way"
+    },
+    {
+      "id": 5,
+      "name": "Faith Barker",
+      "address": "4867 South Hampton Blvd"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Chris Barker",
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Rolo Barker",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Melody Barker",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Kate Barker",
+      "locationId": 1
+    },
+    {
+      "name": "Bob Bubbles",
+      "locationId": 1,
+      "id": 5
+    },
+    {
+      "name": "Melody Barker",
+      "locationId": 2,
+      "id": 6
+    },
+    {
+      "name": "Sam Barker",
+      "locationId": 1,
+      "id": 7
+    },
+    {
+      "name": "Hunter Atkins",
+      "locationId": 3,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville Kennels North",
+      "address": "200 Main Street"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "animal house",
+      "address": "445 harding place",
+      "id": 3
+    },
+    {
+      "name": "",
+      "address": "",
+      "id": 4
+    },
+    {
+      "name": "Animal House",
+      "address": "223 Largo drive",
+      "id": 5
+    },
+    {
+      "name": "Bakers Avenue",
+      "address": "556 Brix Blvd",
+      "id": 6
+    },
+    {
+      "name": "Riverside Kennels",
+      "address": "764 Creek Circle",
+      "locationId": null,
+      "id": 7
+    },
+    {
+      "name": "",
+      "address": "",
+      "locationId": null,
+      "id": 8
+    },
+    {
+      "name": "animal house",
+      "address": "223 Largo drive",
+      "locationId": null,
+      "id": 9
+    },
+    {
+      "name": "animal house",
+      "address": "223 Largo drive",
+      "locationId": null,
+      "id": 10
+    },
+    {
+      "name": "nashville north",
+      "address": "223 Largo drive",
+      "locationId": null,
+      "id": 11
+    },
+    {
+      "name": "animal house",
+      "address": "223 Largo drive",
+      "locationId": null,
+      "id": 12
+    },
+    {
+      "name": "test",
+      "address": "test",
+      "locationId": null,
+      "id": 13
+    },
+    {
+      "name": "journal",
+      "address": "fdsafd",
+      "locationId": null,
+      "id": 14
+    }
+  ]
 }
