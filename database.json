@@ -92,11 +92,6 @@
       "locationId": 1
     },
     {
-      "name": "Bob Bubbles",
-      "locationId": 1,
-      "id": 5
-    },
-    {
       "name": "Melody Barker",
       "locationId": 2,
       "id": 6
@@ -110,6 +105,11 @@
       "name": "Hunter Atkins",
       "locationId": 3,
       "id": 8
+    },
+    {
+      "name": "Cornelius Lancaster",
+      "locationId": 7,
+      "id": 9
     }
   ],
   "locations": [
@@ -129,11 +129,6 @@
       "id": 3
     },
     {
-      "name": "",
-      "address": "",
-      "id": 4
-    },
-    {
       "name": "Animal House",
       "address": "223 Largo drive",
       "id": 5
@@ -148,12 +143,6 @@
       "address": "764 Creek Circle",
       "locationId": null,
       "id": 7
-    },
-    {
-      "name": "",
-      "address": "",
-      "locationId": null,
-      "id": 8
     },
     {
       "name": "animal house",
@@ -172,24 +161,6 @@
       "address": "223 Largo drive",
       "locationId": null,
       "id": 11
-    },
-    {
-      "name": "animal house",
-      "address": "223 Largo drive",
-      "locationId": null,
-      "id": 12
-    },
-    {
-      "name": "test",
-      "address": "test",
-      "locationId": null,
-      "id": 13
-    },
-    {
-      "name": "journal",
-      "address": "fdsafd",
-      "locationId": null,
-      "id": 14
     }
   ]
 }
