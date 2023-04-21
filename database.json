@@ -68,6 +68,16 @@
       "id": 5,
       "name": "Faith Barker",
       "address": "4867 South Hampton Blvd"
+    },
+    {
+      "id": 6,
+      "name": "Mike Atkins",
+      "address": "7908 Legion Drive"
+    },
+    {
+      "id": 7,
+      "name": "Barley Thompson",
+      "address": "3366 Stonecroft Blvd"
     }
   ],
   "employees": [
